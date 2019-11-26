@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1574774785 source:d:\devt\myshop\src\product.cpp
+	"Product.h"
+
+1574778768 d:\devt\myshop\include\product.h
+	<iostream>
+
+1574778985 source:d:\devt\myshop\src\computer.cpp
+	"computer.h"
+	<iostream>
+
+1574778851 d:\devt\myshop\include\computer.h
+	<Product.h>
+
+1574778338 source:d:\devt\myshop\main.cpp
+	<iostream>
+	"computer.h"
+
+1574776918 source:d:\devt\myshop\src\freezer.cpp
+	"freezer.h"
+
+1574777236 d:\devt\myshop\include\freezer.h
+	<Product.h>
+

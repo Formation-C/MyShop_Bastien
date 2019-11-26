@@ -14,7 +14,7 @@ class Product
         Product();
         virtual ~Product();
 
-        void turnOnOff();
+        virtual void turnOnOff() = 0;
 
     protected:
 
