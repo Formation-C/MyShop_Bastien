@@ -2,6 +2,7 @@
 #define PRODUCT_H
 
 #include <iostream>
+#include <Brand.h>
 
 class Product
 {
@@ -10,8 +11,9 @@ class Product
         float price;
         int product_size;
         std::string model;
+        Brand *brand;
 
-        Product();
+        Product(Brand *brand);
         virtual ~Product();
 
         virtual void turnOnOff() = 0;

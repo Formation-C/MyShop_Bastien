@@ -34,10 +34,12 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/Brand.h" />
 		<Unit filename="include/Product.h" />
 		<Unit filename="include/computer.h" />
 		<Unit filename="include/freezer.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/Brand.cpp" />
 		<Unit filename="src/Product.cpp" />
 		<Unit filename="src/computer.cpp" />
 		<Unit filename="src/freezer.cpp" />

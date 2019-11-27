@@ -1,24 +1,31 @@
 # depslib dependency file v1.0
-1574774785 source:d:\devt\myshop\src\product.cpp
+1574782054 source:d:\devt\myshop\src\product.cpp
 	"Product.h"
 
-1574778768 d:\devt\myshop\include\product.h
+1574782055 d:\devt\myshop\include\product.h
 	<iostream>
+	<Brand.h>
 
-1574778985 source:d:\devt\myshop\src\computer.cpp
+1574782323 source:d:\devt\myshop\src\computer.cpp
 	"computer.h"
 	<iostream>
 
-1574778851 d:\devt\myshop\include\computer.h
+1574782476 d:\devt\myshop\include\computer.h
 	<Product.h>
 
-1574778338 source:d:\devt\myshop\main.cpp
+1574782492 source:d:\devt\myshop\main.cpp
 	<iostream>
 	"computer.h"
 
-1574776918 source:d:\devt\myshop\src\freezer.cpp
+1574782528 source:d:\devt\myshop\src\freezer.cpp
 	"freezer.h"
 
-1574777236 d:\devt\myshop\include\freezer.h
+1574782526 d:\devt\myshop\include\freezer.h
 	<Product.h>
+
+1574781557 d:\devt\myshop\include\brand.h
+	<iostream>
+
+1574781079 source:d:\devt\myshop\src\brand.cpp
+	"Brand.h"
 

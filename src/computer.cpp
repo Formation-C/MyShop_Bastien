@@ -1,11 +1,6 @@
 #include "computer.h"
 #include <iostream>
 
-computer::computer()
-{
-    //ctor
-}
-
 computer::~computer()
 {
     //dtor

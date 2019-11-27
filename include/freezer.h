@@ -6,11 +6,12 @@
 
 class freezer : public Product
 {
+    using Product::Product;
+
     public:
         int capacity;
         bool isFrontal;
 
-        freezer();
         virtual ~freezer();
 
         executeProgram(int programId);
